@@ -25,7 +25,7 @@ class ConnectFour:
                 continue
             if self.game_won():
                 break
-        self.switch_player()
+            self.switch_player()
 
     def game_won(self):
         if self.__game_board.is_winner(self.__player):
